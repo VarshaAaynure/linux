@@ -1,0 +1,93 @@
+# cmd to print kernel
+$ uname
+Linux
+
+# cmd to print kernel with release
+$ uname -r
+5.8.18-100.fc31.x86_64
+
+# cmd to print krnel with version
+$ uname -v
+#1 SMP Mon Nov 2 20:32:55 UTC 2020
+
+# cmd to print kernel operating system
+$ uname -o
+GNU/Linux
+
+# cmd to display all information
+$ uname -a
+Linux varsha 5.8.18-100.fc31.x86_64 #1 SMP Mon Nov 2 20:32:55 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+$ uname -n
+varsha
+
+# 
+$ name uname
+UNAME(1)                                                User Commands                                                UNAME(1)
+
+NAME
+       uname - print system information
+
+SYNOPSIS
+       uname [OPTION]...
+
+DESCRIPTION
+       Print certain system information.  With no OPTION, same as -s.
+
+       -a, --all
+              print all information, in the following order, except omit -p and -i if unknown:
+
+       -s, --kernel-name
+              print the kernel name
+
+       -n, --nodename
+              print the network node hostname
+
+       -r, --kernel-release
+              print the kernel release
+
+       -v, --kernel-version
+              print the kernel version
+
+       -m, --machine
+              print the machine hardware name
+
+       -p, --processor
+              print the processor type (non-portable)
+
+       -i, --hardware-platform
+              print the hardware platform (non-portable)
+
+       -o, --operating-system
+              print the operating system
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+AUTHOR
+       Written by David MacKenzie.
+
+REPORTING BUGS
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report any translation bugs to <https://translationproject.org/team/>
+
+# cmd see the currently logged-in user. 
+$ whoami
+fedora
+
+#
+$ sudo whoami
+root
+
+$ sudo -i
+# whoami
+root
+
+# tty - print the file name of the terminal connected to standard input
+# tty
+/dev/pts/1
+
+# run this cmd to logout from root user
+# logout
