@@ -1,3 +1,11 @@
+#command to comment and uncomment multi-lines in VS code 
+Win ctrl+k+c and ctrl+k+u
+Mac Command+k+c and command+k+u
+
+#multi-line comment in linux 
+<<comment
+comment
+
 # cmd to print kernel
 $ uname
 Linux
