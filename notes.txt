@@ -50,4 +50,9 @@ PID  TTY      TIME CMD
 $ ps -ef
 UID          PID    PPID  C STIME TTY          TIME CMD
 
-#
+# "|" this pipe symball send oupt of first command to second command
+e.g ./file.sh | grep "name"
+
+# date is a system command wich sends its output to stdin
+$ date | echo "Hello"
+Hello
