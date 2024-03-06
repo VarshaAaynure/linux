@@ -1,0 +1,41 @@
+#shell scripting
+man > manual
+e.g man ls
+
+# touch cmd will get used in automation
+touch script-name.sh script2-name.sh
+
+# cmd to list files with all details like time stamp
+ls -ltr
+ls -t
+
+rm file-name.sh
+
+vim or vi to create and edit file
+
+# Shebang line
+#!/bin/bash
+#!/bin/dash
+#!/bin/sh
+#!/bin/ksh
+
+bash is most widely used executable
+
+# permissions
+man chmod
+user | group | you
+
+use number terminoloy 
+777 = to give access evryone
+4 read
+2 write 
+1 execute
+
+pwd
+
+for CPU nproc mcd
+for RAM free cmd
+
+for both use top list process with memory and all details
+
+i can use top 
