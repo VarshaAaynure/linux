@@ -1,5 +1,5 @@
 #shell scripting
-man > manual
+man -> manual
 e.g man ls
 
 # touch cmd will get used in automation
@@ -39,3 +39,15 @@ for RAM free cmd
 for both use top list process with memory and all details
 
 i can use top 
+
+# cmd to list process 
+$ ps
+PID  TTY      TIME CMD
+0000 pts/2    00:00:00 bash
+0000 pts/2    00:00:00 ps
+
+# cmd to list all running ps
+$ ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+
+#
