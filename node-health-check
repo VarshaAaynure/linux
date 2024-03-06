@@ -1,0 +1,6 @@
+Write a shell script which monitors free disk space on Linux/Unix multiple systems (nodes) from a central monitoring system 
+and gives a warning message if any non-temporary filesystem falls below given threshold.
+Consider the list of nodes and value of the threshold is given by the user as a command line argument. 
+If threshold value is not passed, then the script should assume some default threshold. 
+The warning message should print file-system name, the node name, current reached threshold and date-time.
+Further, schedule this disk space monitoring to run every hour from this central monitoring system.
