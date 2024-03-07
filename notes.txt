@@ -2,12 +2,24 @@
 man -> manual
 e.g man ls
 
+cmds to updtae alias in linux
+vim ~/.bashrc
+source ~/.bashrc
+
+alias 
+alias k='kubectl'
+alias vi='vim'
+
 # touch cmd will get used in automation
 touch script-name.sh script2-name.sh
 
 # cmd to list files with all details like time stamp
 ls -ltr
 ls -t
+
+#search
+cd test-folder/
+grep -r 'url that you want to search' *
 
 rm file-name.sh
 
@@ -68,4 +80,27 @@ set -e # exit script when there is an error
 set -o pipefail  # when "|" fails this cmd will get used
 
 #gawk - pattern scanning and processing language
+
+curl yourfile.log | grep ERROR
+curl -X GET your.api.com | grep EROOR
+
+wget your.api.com
+cat your.api.com | grep ERROR
+
+# sudo >  "substitute user do" or "super user do" 
+
+# cmd to switch to root user
+sudo su - 
+
+# from root user we can switch to any other user
+su user1
+su user2
+
+# here "/" refers to all 
+sudo find / -name file-to-search
+
+
+
+
+
 
