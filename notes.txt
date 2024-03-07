@@ -33,8 +33,14 @@ use number terminoloy
 
 pwd
 
-for CPU nproc mcd
-for RAM free cmd
+df -h 
+df -h | awk '{print $5}'
+
+# for CPU 
+nproc 
+
+#for RAM 
+free -g
 
 for both use top list process with memory and all details
 
@@ -56,3 +62,10 @@ e.g ./file.sh | grep "name"
 # date is a system command wich sends its output to stdin
 $ date | echo "Hello"
 Hello
+
+set -x # debug mode
+set -e # exit script when there is an error
+set -o pipefail  # when "|" fails this cmd will get used
+
+#gawk - pattern scanning and processing language
+
